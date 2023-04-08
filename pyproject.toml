@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chat-finance-plugin"
+version = "0.1.0"
+description = ""
+authors = ["Chengxu Bian <cbian7@wisc.edu>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chat_finance_plugin"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.92.0"
+uvicorn = "^0.20.0"
+pydantic = "^1.10.5"
+financedatabase = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
